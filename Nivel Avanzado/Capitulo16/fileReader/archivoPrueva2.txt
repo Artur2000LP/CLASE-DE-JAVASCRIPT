@@ -1,0 +1,4 @@
+{
+ "animal" : "gato",
+ "color" : "negro"
+}

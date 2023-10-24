@@ -1,0 +1,16 @@
+---Geolocalization
+- getCurrentPosition()
+    -parametros (position, error, options)
+    -propiedades  de option (enableHightAccuracy, timeout, maximumAge)
+- watchPosition()
+
+
+x) historial
+    - back() (value atras)
+    - forward() (va hacia adelante)
+    - tamaño del historial
+    - go() (va al sitio indicado con el numero indicado )
+    - pushState() ( modificar el URL y conserba la informacion)
+    - propiedada estate y evento popstate
+    - replaceState (modifica el URL y no la conserva)
+    

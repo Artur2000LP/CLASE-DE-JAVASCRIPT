@@ -1,0 +1,6 @@
+___ FileReader___
+- readAsText() leemos archivos
+- ReadAsDataURL() lee archivos como imagenes
+- Ejemplo de uso 1 (cargar galeria dinamicamente)
+- Ejemplo de uso 2 (combinar con drag y drop)
+- Ejemplo de uso 3 (borra el progreso con progresss y loadend)

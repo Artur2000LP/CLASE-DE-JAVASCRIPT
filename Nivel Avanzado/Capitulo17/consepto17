@@ -1,0 +1,31 @@
+_____IndexedDB_____
+- caracteristicas
+  * Almacena informacion en el nabegador de forma similar a localStorage
+  * es orientada a objetos 
+  * es asincrona 
+  * trabaja con eventos de DOM
+
+- Procedimiento de creacion 
+  * Objeto IndexedDB
+  * Metodo open()
+  * onupgradeneeded, onsucess, onerror
+
+- crear Almacen de objetos y almacenar objetos
+  * Alamacen de objetos - concepto
+  * metodo createObjectStore()
+  * autoIncrement vs KeyPath
+  * metodo transaction()
+  * IDBTraslation.objectStore()
+  * IDBObjectStore.add()
+
+- leer objeto de Almacen
+  * IDBobjectStore.openCursor()
+  * metodo continue()
+
+- modificar objetos 
+  * IDBobjectStore.put()
+
+- eliminar objetos 
+  * IDBobjectStore.delete()
+
+// para actializar la paguina sin el cache (control+chif+R)

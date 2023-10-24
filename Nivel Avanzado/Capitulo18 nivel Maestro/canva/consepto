@@ -1,0 +1,11 @@
+______*Canvas________
+- strokeRect
+- strokeStyle
+- fillRect
+- fillStyle
+- lineWidth
+- moveTo
+- lineTo
+- closePath
+- beginPath
+

@@ -1,0 +1,73 @@
+__________________Capitulo 15________________
+
+77) Prototipos
+- definicion
+- .__proto__ para aceder a los prototipos que ya fueron creados 
+- '.prototype' para aceder a los prototipos que hemos creado 
+- prototype chain  - cadena de prototipos  
+- protype object
+
+78) caracteristicar
+- un prototipon de finido en su codigo fuente es mutable 
+- es en si mismo un objeto, asi como otros 
+- tiene una existencia ficica en la memoria 
+- puede ser modificado y llamado 
+- puede ser bisto mo una familia ejemplar de una famili de objeto 
+- un objeto ereda propiedades (valores y metodos) de su prototipo
+
+79) Medo Estrictos("strict mode")
+- Combierte los errores de javaScript en execciones 
+- mejora la optimizacion de errores, consige megores tiempos de ejecucion 
+- Evita sintaxis usadas en posteriores a ES6
+-  no permite que el programador realize una ""mala sintaxis"
+
+80) Usando el Modo Estricto 
+- variables declaradas
+- modificar propiedades (defineProperty() y writeable)
+- Agregar propiedades
+- no se pruede agregar propiedades a un String 
+- No existen las multiples variables 
+- las palabras reservadas no pueden ser  usadas como variables
+- cambia el this
+- numeros Octales con una "o" adelante y no existe with
+- Arguments y Eval no pueden ser variables 
+
+83) Funciones flecha 
+- ¿por que aparecieron ? (funciones compactas y uso de this)
+- si solo hay una exprecion, la retornan 
+- parentecis opcionales ante un solo parametro (sin parametro se requiere parentecis )
+- no son adecuadas para ser usadas como metotodos y no pueden ser usadas como constructures
+- retornan literales si su cuerpo esta entre ()
+- thi contextual (no tienen propio this, si no que toman le de la fucnion que los envuelve)
+- la reglas de modo estricto aplicadas a this son ignoradas 
+- la funcion flcha invocada atrabes de los metodos call, apply y bind
+- no tienen objeto arguments
+- no tienen propiedad del prototipo prototype
+- no se puede usar yield (por ende no se pueden usar las funciones generadoras )
+- no puede contener saltos de linea entre sus parametros y su flecha 
+- Orden de parseo
+
+- Funciones recursivas (recursividad)
+- clausuras (o cierre)
+- parametros por defecto (Validacion antigua vs actual)
+- parametros rest (...param)
+- destructuracion
+- Destructurar Arrays y objetos
+- Funcion destructuradora 
+
+84) operacion condicional (ternario)
+- definicion - no es una sentencia condicional pero es operador
+- sintaxtis
+
+85) operador Spread (spread operator)
+- añadir array a otros arrys
+- concatenar arrys
+- como argumento rest
+
+86)operador bit a bit
+- AND & 
+- OR |
+- XOR ^
+- NOT ~
+
+

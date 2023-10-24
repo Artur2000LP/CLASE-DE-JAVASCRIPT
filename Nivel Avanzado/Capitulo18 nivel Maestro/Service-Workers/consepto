@@ -1,0 +1,8 @@
+_____Service Workers____
+- Interfas serviceWorker
+- serviceWorker lifeCycle: https/developers.google.com/web/fundamentals/primers/service-workers/lifecycle
+- registrar un service worker con el metodo Register(/)
+- enviar mensajes con el metodo postMessage()
+- evento Fetch
+- Registrar cache y mostrar sitio web offline 
+- chat Realtime

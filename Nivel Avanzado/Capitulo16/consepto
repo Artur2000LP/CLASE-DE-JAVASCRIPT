@@ -1,0 +1,46 @@
+__________CAPITULO16___________
+-- APIS--
+
+88) objeto date 
+- getDate()
+- getDays()
+- getMonth()
+- getYear()
+- getHours()
+- getMinutes()
+- getSeconds()
+- ejemplos de uso (alarma) 
+
+89) LocalStorage y SessionStorage - son apis que nos permite almacenar la informacion 
+- diferencias  -SessionStorage es la informacion que se almecena en la Session este al cerrar la pestaña la informacion desaparece  mientras que LocalStorage almacena informacion en el almacenamiento local y al cerrar la pestaña esta informacion no desaparece.
+- setItem()
+- getItem()
+- removeItem()
+- clear()
+- ejemplo de uso (Idioma)
+
+90) Drag y Drop // arrastrar y soltar 
+- Eventos del objeto
+    - dragstart -- verifica si esta haciendo clik
+    - drag -- verifica si se esta moviendo
+    - dragend -- verifica si se a soltado el objeto
+
+- Eventos de Zona
+    - dragenter -- verifica que este entrando un objeto a la sona
+    - dragover -- verifica si el objeto aun esta en movimiento dentro de la zona
+    - drop -- verifica si se a soltado el objeto
+    - dragleave -- verifica si el objeto salio de la zona
+
+- Propiedad dataTransfer // transmite informacion entre dos objetos cuando se arraste
+    - getData()
+    - setData()
+    
+- ejemplos de uso (Texturizador)
+
+91) Geolocalization
+- getCurrentPosition()
+    - parametros (position, error, options)
+    - propiedades de option( enableHightAccuracy, timeout, maximumAge)
+- watchPosition()
+
+

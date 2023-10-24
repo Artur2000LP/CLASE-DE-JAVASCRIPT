@@ -1,0 +1,19 @@
+dobody{
+    color: #222;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0
+}
+
+.rectangulo{
+    padding: 100px 200px;
+    background: #ccc;
+    margin: 50px;
+    border: 4px dashed #aaa;
+}
+.circulo{
+    border-radius: 50%;
+    padding: 40px;
+    background: #f00;
+    display: inline-block;
+}
