@@ -33,7 +33,7 @@ else if(dineroCofla>=2.9){
 else{
     alert("lo siento Cofla, pobre de mierda, no te alcanza para pagar  ");
 }
-//donero Roberto
+//dinero Roberto
 
 if(dineroRoberto>=0.6 && dineroRoberto<1){
     alert("Roberto Comprate elado de agua");
